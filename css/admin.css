@@ -1,0 +1,54 @@
+
+/* Admin Styles */
+.adminBreadcrumb
+{
+	border:1px solid #ccc;
+	padding:10px 0px 10px 10px;
+	background:#fff;
+	border-radius:6px;
+	margin:15px 10px 10px 0px;
+	box-shadow: inset 1px 1px 1px 1px #888;
+}
+
+
+
+#adminSlidesLinkDiv
+{
+	text-align:center;
+}
+
+.tips_widget_wrap
+{
+	display:grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) );
+	grid-gap: 10px;
+}
+
+.tips_widget_wrap > div
+{
+	border:1px solid #ccc;
+}
+
+.tips_widget_wrap > div > div
+{
+	padding:10px;
+}
+
+.tips_widget_wrap h2
+{
+	font-size:15px !important;
+	line-height:18px !important;
+	padding-bottom:15px !important;
+	font-weight:300 !important;
+	background:#ccc;
+	padding-left:20px !important;
+}
+
+/* Overrider the POSTS dashicon to a megaphone */
+#adminmenu  div.dashicons-admin-post::before {
+    content: '\f488';
+}
+
+
+
+

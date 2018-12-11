@@ -1,0 +1,133 @@
+.learning-content-menu ol
+{
+	padding:0px;
+}
+
+
+.learning-content-menu li {
+	list-style: none;
+}
+
+
+
+.learning-content-menu .hidden
+{
+	display:none;
+	
+}
+
+
+.learning-content-menu div.topicName
+{
+	text-align: center;
+    padding: 15px;
+    background:#336699;
+    color: #fff;
+}
+
+.learning-content-menu .sessionNameWrap {
+    display: flex;
+    flex: 1;
+    flex-flow: row;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #f2f2f2;
+}
+
+
+
+.learning-content-menu ul li, .learning-content-menu ol li
+{
+	border-bottom:1px solid #f4f4f4;
+	list-style:none !important;
+}
+
+
+.learning-content-menu ol ol li
+{
+	font-size: 13px;
+    padding: 0;
+}
+
+
+
+
+.learning-content-menu .activeTab a {
+    color: #000;
+	font-weight:bold;
+}
+
+.learning-content-menu .activeTab a:hover {
+    padding-left:0px;
+	
+}
+
+.learning-content-menu a {
+    color: #a5a5a5;
+    padding: 17px 10px 17px 0px;
+    display: block;
+	transition: all 0.1s ease-in-out;
+}
+
+.learning-content-menu a:hover {
+    color: #000;
+	padding-left:10px;
+
+}
+
+
+.learning-content-menu .sessionNameWrap:hover
+{
+	cursor:pointer;
+	
+}
+
+
+
+.learning-content-menu .sessionNameWrap div:last-child {
+    margin-left: auto;
+}
+
+.learning-content-menu .sessionNameWrap .sessionName
+{
+	padding:20px 5px 20px 20px;
+	font-size:15px;
+	color:#000;
+
+}
+.learning-content-menu .sessionNameWrap .submenuSessionProgress
+{
+	padding:15px;
+	
+}
+
+
+
+.learning-content-menu .linkText {
+    width: 180px;
+    float: left;
+    padding-left: 10px;
+}
+
+.learning-content-menu .numeral {
+    box-sizing: border-box;
+    width: 40px;
+    margin: 0;
+    padding: 0 10px 0 0;
+    float: left;
+    text-align: right;
+}
+
+.learning-content-menu .pagename {
+    margin: 0 0 0 41px;
+}
+
+.learning-content-menu .status {
+    float: right;
+}
+
+
+.submenuSessionProgress .c100
+{
+	font-size:40px;
+}
